@@ -1,0 +1,21 @@
+#macOS system files
+.DS_Store
+Thumbs.db
+
+#Tableau temporary files
+*.twb~
+*.twbx~
+*.bak
+
+#Log and database files
+*.log
+*.sqlite
+*.db
+
+#Jupyter Notebook checkpoints (if applicable)
+.ipynb_checkpoints/
+
+#Python cache and virtual environment (if applicable)
+__pycache__/
+*.pyc
+venv/
